@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Card Personal</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="card mi-card">
+                    <div class="card-img-top text-center pt-4">
+                        <img src="img/nat.png" alt="Mi foto" class="foto-perfil">
+                    </div>
+                    
+
+                    <div class="card-body text-center">
+                        <h3 class="card-title mi-nombre">Natalia Guzman</h3>
+                        <p class="mi-rol">Frontend Developer</p>
+                        
+                        <p class="card-text mi-descripcion">
+                            Futura programadora web. 
+                            ¡Dominare! HTML, CSS y JavaScript para crear 
+                            páginas increibles y funcionales.
+                        </p>
+
+                        <div class="mis-redes mb-3">
+                            <a href="mailto:natalia.guzman@genstudents.org" class="btn btn-outline-primary btn-sm me-2">
+                                <i class="fas fa-envelope"></i> Email
+                            </a>
+                            <a href="https://www.linkedin.com/in/natalia-guzman-dev/" class="btn btn-outline-info btn-sm me-2">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                            <a href="https://github.com/NatGuzB" class="btn btn-outline-dark btn-sm">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                        
+                        <!-- Botón principal -->
+                        <button class="btn btn-primary mi-boton-cv" onclick="descargarCV()">
+                            <i class="fas fa-download"></i> Ver mi CV
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
